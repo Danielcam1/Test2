@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+  <title>FOOD AND BREW</title>
+  <link rel="icon" href="favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/Meal.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    .container {
+      width: 100%;
+      padding-top: top;
+      margin-bottom: 14px;
+      height: 80vh;
+      padding-left: 8%;
+      padding-right: 8%;
+      align-items: center;
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+  
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      padding-bottom: 14vh;
+    }
+  
+    td,
+    th {
+      border: 1px solid #964b00;
+      text-align: left;
+      padding: 8px;
+    }
+  
+    td {
+      color: white;
+    }
+  
+    th {
+      color: #964b00;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    h1 {
+      color: #964b00;
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    p {
+      color: #fff;
+      font-size: 50px;
+      line-height: 15px;
+    }
+  
+    .navbar-brand {
+        font-size: 30px;
+        color: #964;
+    }
+  </style>
+<body class="p-3 m-0 border-0 bd-example">
+  <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand">FAB CAFE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                      Food and Brew
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                              aria-expanded="false">
+                              Menu
+                          </a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="CoffeeMenu.html">Coffee</a></li>
+                              <li><a class="dropdown-item" href="MilkshakeMenu.html">Milk Shake</a></li>
+                              <li><a class="dropdown-item" href="FrappuccinoMenu.html">Frappuccino</a></li>
+                              <li><a class="dropdown-item" href="Meals.html">Meals</a></li>
+                          </ul>
+                      <li class="nav-item">
+                          <a class="nav-link" href="Media.html">FAB Gallery</a>
+                          <a class="nav-link" href="review.html">Rate Us</a>
+                      </li>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </nav>
+    <div class="container">
+        <h1>PICA-PICA</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Regular Fries</td>
+                <td>₱75</td>
+            </tr>
+            <tr>
+                <td>Chicken & Fries</td>
+                <td>₱115</td>
+            </tr>
+            <tr>
+                <td>Nachos</td>
+                <td>₱115</td>
+            </tr>
+        </table>
+        <h1>WAFFLE STICK</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Nutella Waffle</td>
+                <td>₱25(3 for 70)</td>
+            </tr>
+            <tr>
+                <td>Hotdog Waffle</td>
+                <td>₱30(3 for 60)</td>
+            </tr>
+        </table>
+        <h1>PASTA</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Bacon Carbonara</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Chicken Carbonara</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Tuna Carbonara</td>
+                <td>₱130</td>
+            </tr>
+                <td>F.A.B. Pasta</td>
+                <td>₱130</td>
+            <tr>
+        </table>
+        <h1>SANDWICH(served with fries)</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Hotdog Sandwich</td>
+                <td>₱85</td>
+            </tr>
+            <tr>
+                <td>Ham & Cheese Sandwich</td>
+                <td>₱85</td>
+            </tr>
+            <tr>
+                <td>Spam Sandwich</td>
+                <td>₱95</td>
+            </tr>
+            <tr>
+                <td>Ham & Egg Sandwich</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Burger Sandwich</td>
+                <td>₱130</td>
+            </tr>
+            <tr>
+                <td>Chicken Wrap</td>
+                <td>₱130</td>
+            </tr>
+        </table>
+
+        <h1>RICE MEALS</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Solo(3 pcs wings)</td>
+                <td>₱95</td>
+            </tr>
+            <tr>
+                <td>Just the "2" of Us(6 pcs wings)</td>
+                <td>₱185</td>
+            </tr>
+            <tr>
+                <th>Flavors:</th>
+            </tr>
+            <tr>
+                <td>Buffalo</td>
+            </tr>
+            <tr>
+                <td>Sriracha</td>
+            </tr>
+            <tr>
+                <td>Honey Glazed</td>
+            </tr>
+            <tr>
+                <td>Garlic Butter</td>
+            </tr>
+            <tr>
+                <td>Teriyaki</td>
+            </tr>
+        </table>
+        <h1>WINGS IN A TRAY</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>30 pcs</td>
+                <td>₱859</td>
+            </tr>
+            <tr>
+                <td>50 pcs</td>
+                <td>₱1,259</td>
+            </tr>
+        </table>
+        <h1>KATSU</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Pork Katsu</td>
+                <td>₱150</td>
+            </tr>
+            <tr>
+                <td>Chicken Katsu</td>
+                <td>₱130</td>
+            </tr>
+        </table>
+        <h1>PANSIT CABAGAN</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Regular</td>
+                <td>₱50</td>
+            </tr>
+            <tr>
+                <td>Special</td>
+                <td>₱80</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
